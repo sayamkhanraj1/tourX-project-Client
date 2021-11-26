@@ -1,0 +1,44 @@
+.service-btn{
+         display: inline-block;
+         padding: 8px 15px;
+         background-color: #f5692e;
+         font-weight: 600;
+         font-size: 20px;
+         color: #fff;
+         border: 0;
+         border-radius: 5px;
+}
+
+.package-detail{
+         font-weight: 700;
+         font-size: 15px;
+         color: #304f47;
+}
+
+.package-text h3{
+         color: #f5692e;
+         font-weight: bold;
+         font-size: 23px;
+
+}
+.star{
+         color: #f5692e;
+}
+.card-style{
+         box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+         background-color: #ddd;
+         color: black;
+         border-radius: 12px;
+}
+
+.img-effect{
+         overflow: hidden;
+}
+
+.img-effect img{
+         transition:  1.5s ;
+}
+
+.img-effect:hover img{
+         transform: scale(1.5);
+}

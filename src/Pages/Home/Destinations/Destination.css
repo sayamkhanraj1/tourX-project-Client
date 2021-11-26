@@ -1,0 +1,11 @@
+.des-price{
+         color: #ff7f47;
+         font-weight: 700;
+         font-size: 25px;
+}
+.des-price span{
+         color: #a5a5a5;
+         font-size: 18px;
+         margin-left: 10px;
+         text-decoration: line-through;
+}

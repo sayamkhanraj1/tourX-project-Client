@@ -1,0 +1,15 @@
+.logOut-btn{
+         color: #fff ;
+         cursor: pointer;
+         font-weight: 600;
+         padding: 8px 17px;
+         border: 0;
+         background-color: rgb(83, 80, 80);
+         border-radius: 20px;
+         margin-left: 20px;
+}
+
+.nav-style Link{
+         text-decoration: none;
+         font-size: 25px;
+}

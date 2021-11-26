@@ -1,0 +1,5 @@
+.card-img{
+         height: 230px;
+         clip-path: circle();
+         margin-top: 10px;
+}

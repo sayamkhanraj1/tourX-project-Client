@@ -1,0 +1,23 @@
+[
+         {
+          "key": 201,
+         "name": "Group travel go to bea amsterdam",
+         "rating": "7k+Rating",
+         "price":"$180",
+         "img": "https://i.ibb.co/jrcPdNB/distination1.png"
+         },        
+         {
+          "key": 202,
+         "name": "Group travel go to Lake Garda",
+         "rating": "8k+Rating",
+         "price":"$140",
+         "img": "https://i.ibb.co/LvRWn1J/distination2.png"
+         },        
+         {
+          "key": 203,
+         "name": "Group travel go to Amalfi Costa",
+         "rating": "9k+Rating",
+         "price":"$160",
+         "img": "https://i.ibb.co/xJFwmYB/distination3.png"
+         }        
+]
