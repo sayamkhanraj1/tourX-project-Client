@@ -32,6 +32,7 @@ const Appbar = () => {
                     <Link to="/addNewPackage"><li className="nav-link active fw-bold fs-5 text-dark">Add Package</li></Link>
                     <Link to="/myOrders"><li className="nav-link active fw-bold fs-5 text-dark">My Orders</li></Link>
                     <Link to="/allOrders"><li className="nav-link active fw-bold fs-5 text-dark">All Order</li></Link>
+                    <Link to="/addreview"><li className="nav-link active fw-bold fs-5 text-dark">Add Review</li></Link>
                     <button onClick={logOut} className="logOut-btn me-4">LogOut</button>
                   </div> :
                     <Link to="/login"><li className="nav-link active fw-bold fs-5 me-2 text-dark">Registration / LogIn</li></Link>

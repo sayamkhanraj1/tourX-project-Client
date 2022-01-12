@@ -6,15 +6,15 @@ const DispalyReview = () => {
          const [reviews, setReviews] = useState([]);
 
          useEffect(()=>{
-                  fetch('https://murmuring-anchorage-32548.herokuapp.com/reviews')
+                  fetch('https://powerful-sierra-60610.herokuapp.com/userReviews')
                   .then(res => res.json())
                   .then(data => setReviews(data))
          },[])
          return (
                   <div>
                   <div className="container my-5">
-                  <div className="proucts-text">
-                  <h2 className="blog-titel text-center my-5">Reviews</h2>
+                  <div className="achievement-text mb-5">
+                  <h5>Dispaly User Review</h5>
                   </div>
                   <div className="row">
                   {

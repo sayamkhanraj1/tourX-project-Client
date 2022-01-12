@@ -4,6 +4,7 @@ import useAuth from '../../../Hooks/useAuth';
 import Achievement from '../Achievement/Achievement';
 import Blogs from '../Blogs/Blogs';
 import Destinations from '../Destinations/Destinations';
+import DispalyReview from '../DisplayReview/DispalyReview';
 import HeroSection from '../Header/HeroSection/HeroSection';
 import Reviews from '../Reviews/Reviews';
 import TourPackages from '../TourPackages/TourPackages';
@@ -22,6 +23,7 @@ const Home = () => {
                            <Reviews />
                            <Blogs />
                            <Destinations />
+                           <DispalyReview />
                   </div>
          );
 };

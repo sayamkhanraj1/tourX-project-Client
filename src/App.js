@@ -14,6 +14,7 @@ import AddNewPackage from './AddNewPackage/AddNewPackage';
 import MyOrders from './Pages/MyOrders/MyOrders';
 import ManageAllOrders from './ManageAllOrders/ManageAllOrders';
 import Error from './Error/Error';
+import AddReview from './Pages/Home/AddReview/AddReview';
 
 function App() {
   return (
@@ -48,6 +49,9 @@ function App() {
           </PrivateRoute>
           <PrivateRoute exact path="/allOrders">
           <ManageAllOrders />
+          </PrivateRoute>
+          <PrivateRoute exact path="/addreview">
+          <AddReview />
           </PrivateRoute>
           <Route exact path="*">
             <Error />
