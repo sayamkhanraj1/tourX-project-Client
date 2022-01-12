@@ -7,6 +7,7 @@ import Destinations from '../Destinations/Destinations';
 import HeroSection from '../Header/HeroSection/HeroSection';
 import Reviews from '../Reviews/Reviews';
 import TourPackages from '../TourPackages/TourPackages';
+import DispalyReview from '../'
 
 const Home = () => {
          const {isLoading} = useAuth();
@@ -22,6 +23,7 @@ const Home = () => {
                            <Reviews />
                            <Blogs />
                            <Destinations />
+                           <DispalyReview />
                   </div>
          );
 };
