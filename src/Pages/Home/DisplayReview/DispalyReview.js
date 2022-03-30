@@ -6,7 +6,7 @@ const DispalyReview = () => {
          const [reviews, setReviews] = useState([]);
 
          useEffect(()=>{
-                  fetch('https://powerful-sierra-60610.herokuapp.com/userReviews')
+                  fetch('https://fast-badlands-89453.herokuapp.com/userReviews')
                   .then(res => res.json())
                   .then(data => setReviews(data))
          },[])

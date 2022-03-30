@@ -7,7 +7,7 @@ const Blogs = () => {
          const [blogs, setBlogs] = useState([]);
 
          useEffect(() =>{
-                  fetch('https://powerful-sierra-60610.herokuapp.com/blog')
+                  fetch('https://fast-badlands-89453.herokuapp.com/blog')
                   .then(res => res.json())
                   .then(data => setBlogs(data))
          },[])

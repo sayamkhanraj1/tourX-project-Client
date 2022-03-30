@@ -14,13 +14,13 @@ const MyOrders = () => {
         const starIcon = <FontAwesomeIcon icon={faStar} />
 
          useEffect(() =>{
-                  fetch(`https://powerful-sierra-60610.herokuapp.com/orders/${user?.email}`)
+                  fetch(`https://fast-badlands-89453.herokuapp.com/orders/${user?.email}`)
                   .then(res => res.json())
                   .then(data => setOrders(data))
          },[isDeleted])
 
          const handleDelete = (id) =>{
-                  fetch(`https://powerful-sierra-60610.herokuapp.com/deleteOrder/${id}`, {
+                  fetch(`https://fast-badlands-89453.herokuapp.com/deleteOrder/${id}`, {
                            method:"DELETE", 
                            headers:{'content-type': 'application/json'}
                   })

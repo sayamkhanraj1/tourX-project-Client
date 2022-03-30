@@ -7,7 +7,7 @@ const TourPackages = () => {
          const [packages, setPackages] = useState([]);
 
          useEffect(()=>{
-                  fetch('https://powerful-sierra-60610.herokuapp.com/packages')
+                  fetch('https://fast-badlands-89453.herokuapp.com/packages')
                   .then(res => res.json())
                   .then(data => setPackages(data))
          },[])

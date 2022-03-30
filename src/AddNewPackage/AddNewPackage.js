@@ -7,7 +7,7 @@ const AddNewPackage = () => {
 
          const onSubmit = data => {
                   console.log(data)
-                  fetch('https://powerful-sierra-60610.herokuapp.com/addPackage',{
+                  fetch('https://fast-badlands-89453.herokuapp.com/addPackage',{
                            method:"POST",
                            headers:{'content-Type' : 'application/json'},
                            body: JSON.stringify(data)

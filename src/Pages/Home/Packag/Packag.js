@@ -25,7 +25,7 @@ const Packag = (props) => {
           data.email = user?.email;
           console.log(data)
 
-          fetch("https://powerful-sierra-60610.herokuapp.com/myOrder", {
+          fetch("https://fast-badlands-89453.herokuapp.com/myOrder", {
             method:"POST",
             headers:{'content-type' : 'application/json'},
             body: JSON.stringify(data)

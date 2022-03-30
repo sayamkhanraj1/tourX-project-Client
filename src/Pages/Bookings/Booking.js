@@ -22,7 +22,7 @@ const Booking = () => {
          const starIcon = <FontAwesomeIcon icon={faStar} />
 
          useEffect(()=>{
-                  fetch('https://powerful-sierra-60610.herokuapp.com/packages')
+                  fetch('https://fast-badlands-89453.herokuapp.com/packages')
                   .then(res => res.json())
                   .then(data => setBooking(data))
          },[])

@@ -7,7 +7,7 @@ const Destinations = () => {
          const [destinations, setDestination] = useState([]);
 
          useEffect(() =>{
-                  fetch('https://powerful-sierra-60610.herokuapp.com/destination')
+                  fetch('https://fast-badlands-89453.herokuapp.com/destination')
                   .then(res => res.json())
                   .then(data => setDestination(data))
          },[])
