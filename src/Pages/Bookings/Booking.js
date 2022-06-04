@@ -25,7 +25,7 @@ const Booking = () => {
                   fetch('https://fast-badlands-89453.herokuapp.com/packages')
                   .then(res => res.json())
                   .then(data => setBooking(data))
-         },[])
+         },[]);
 
          useEffect(()=>{
                   const foundBooking = bookings.find(booking => (booking.key == bookingId))
